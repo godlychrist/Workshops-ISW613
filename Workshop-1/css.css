@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.fecha {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20%;
+}
