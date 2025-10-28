@@ -10,8 +10,6 @@ function obtenerProvincias() {
 
     // *** Código de Verificación ***
     if (!$resultado) {
-        // Si la consulta falla (tabla mal nombrada, columna incorrecta, etc.)
-        // verás este error.
         echo "ERROR EN CONSULTA: Error SQL en la tabla provincias: " . $conn->error;
         return [];
     }
@@ -25,10 +23,7 @@ function obtenerProvincias() {
         }
     }
     
-    // *** Código de Verificación ***
-    // Si ves este mensaje y el array está vacío (Array()), la tabla está vacía.
-    // print_r($provincias); 
-    
+
     return $provincias;
 }
 ?>
